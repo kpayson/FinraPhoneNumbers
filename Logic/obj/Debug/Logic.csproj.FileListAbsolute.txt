@@ -1,0 +1,6 @@
+c:\users\kpays\source\repos\WebApplication1\Logic\bin\Debug\Logic.dll
+c:\users\kpays\source\repos\WebApplication1\Logic\bin\Debug\Logic.pdb
+c:\users\kpays\source\repos\WebApplication1\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+c:\users\kpays\source\repos\WebApplication1\Logic\obj\Debug\Logic.dll
+c:\users\kpays\source\repos\WebApplication1\Logic\obj\Debug\Logic.pdb
+C:\Users\kpays\source\repos\WebApplication1\Logic\obj\Debug\Logic.csprojAssemblyReference.cache

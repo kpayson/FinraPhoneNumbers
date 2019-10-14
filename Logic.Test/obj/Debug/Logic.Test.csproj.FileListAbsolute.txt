@@ -1,0 +1,12 @@
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\Logic.Test.dll
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\Logic.Test.pdb
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\nunit.framework.dll
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\nunit.framework.pdb
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\nunit.framework.xml
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\obj\Debug\Logic.Test.csprojAssemblyReference.cache
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\obj\Debug\Logic.Test.csproj.CoreCompileInputs.cache
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\obj\Debug\Logic.Test.csproj.CopyComplete
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\obj\Debug\Logic.Test.dll
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\obj\Debug\Logic.Test.pdb
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\Logic.dll
+C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\Logic.pdb
