@@ -71,6 +71,10 @@
 
             if (Model.PhoneNumbers.Any())
             {
+                <div style="margin-bottom:4px; padding-left:8px;">
+                    Total number of combinations: @Model.NumVariations
+                </div>
+
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -94,7 +98,7 @@
                 <div style="display:flex;justify-content:space-between">
 
                     <input type="hidden" name="PageNumber" value="@Model.PageNumber" />
-                    <input type="hidden" name="PageCount" value="@Model.PageCount" />
+                    <input type="hidden" name="NumVariations" value="@Model.NumVariations" />
 
                     
                     <div>

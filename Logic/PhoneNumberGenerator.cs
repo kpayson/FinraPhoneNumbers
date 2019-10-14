@@ -67,10 +67,16 @@ namespace Logic
             }
         }
 
-        public static int NumPages(string phoneNumber, int pageSize)
+        public static int NumVariations(string phoneNumber)
         {
             var groupSizes = phoneNumber.Where(d => d >= '0' && d <= '9').Select(c => numberGroups[c - '0'].Length).ToArray();
-            var numCombinations = groupSizes.Aggregate(1, (acc,i)=>i*acc);
+            var numCombinations = groupSizes.Aggregate(1, (acc, i) => i * acc);
+            return numCombinations;
+        }
+
+        public static int NumPages(string phoneNumber, int pageSize)
+        {
+            var numCombinations = NumVariations(phoneNumber);
             var numPages = (int)Math.Ceiling(((double)numCombinations) / pageSize);
             
             return numPages;

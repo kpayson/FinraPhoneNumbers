@@ -10,3 +10,15 @@ C:\Users\kpays\source\repos\WebApplication1\Logic.Test\obj\Debug\Logic.Test.dll
 C:\Users\kpays\source\repos\WebApplication1\Logic.Test\obj\Debug\Logic.Test.pdb
 C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\Logic.dll
 C:\Users\kpays\source\repos\WebApplication1\Logic.Test\bin\Debug\Logic.pdb
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\bin\Debug\Logic.Test.dll
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\bin\Debug\Logic.Test.pdb
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\bin\Debug\Logic.dll
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\bin\Debug\nunit.framework.dll
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\bin\Debug\Logic.pdb
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\bin\Debug\nunit.framework.pdb
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\bin\Debug\nunit.framework.xml
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\obj\Debug\Logic.Test.csprojAssemblyReference.cache
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\obj\Debug\Logic.Test.csproj.CoreCompileInputs.cache
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\obj\Debug\Logic.Test.csproj.CopyComplete
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\obj\Debug\Logic.Test.dll
+C:\sourcecode\FinraPhoneNumbers\Logic.Test\obj\Debug\Logic.Test.pdb

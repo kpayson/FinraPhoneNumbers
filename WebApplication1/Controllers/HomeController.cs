@@ -44,14 +44,14 @@ namespace WebApplication1.Controllers
         {
 
             var nums = GetVariations(phoneNumber, 1, pageSize);
- 
-            var pageCount = PhoneNumberGenerator.NumPages(phoneNumber, pageSize);
+
+            var numVariations = PhoneNumberGenerator.NumVariations(phoneNumber); 
 
             var model = new Models.PhoneNumberViewModel
             {
                 PhoneNumber = phoneNumber,
                 PageSize = pageSize,
-                PageCount = pageCount,
+                NumVariations = numVariations,
                 PageNumber = 1,          
                 PhoneNumbers = nums
             };

@@ -31,6 +31,14 @@ namespace Logic.Test
                 "C3","CD","CE","CF"}), "Did No generate all phone numbers correctly");
 
         }
+        [Test]
+        public void ShouldCalculateCombinationsCountCorrectly()
+        {
+            var count = PhoneNumberGenerator.NumVariations("234");
+
+            Assert.AreEqual(count, 64);
+        }
+
 
         [Test]
         public void ShouldCalculatePageSizeCorrectly()

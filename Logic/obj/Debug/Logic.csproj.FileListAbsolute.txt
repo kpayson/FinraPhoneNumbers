@@ -4,3 +4,9 @@ c:\users\kpays\source\repos\WebApplication1\Logic\obj\Debug\Logic.csproj.CoreCom
 c:\users\kpays\source\repos\WebApplication1\Logic\obj\Debug\Logic.dll
 c:\users\kpays\source\repos\WebApplication1\Logic\obj\Debug\Logic.pdb
 C:\Users\kpays\source\repos\WebApplication1\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\sourcecode\FinraPhoneNumbers\Logic\bin\Debug\Logic.dll
+C:\sourcecode\FinraPhoneNumbers\Logic\bin\Debug\Logic.pdb
+C:\sourcecode\FinraPhoneNumbers\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\sourcecode\FinraPhoneNumbers\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\sourcecode\FinraPhoneNumbers\Logic\obj\Debug\Logic.dll
+C:\sourcecode\FinraPhoneNumbers\Logic\obj\Debug\Logic.pdb
