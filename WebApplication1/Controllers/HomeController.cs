@@ -11,7 +11,6 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
 
-
         public ViewResult Index(string phoneNumber="")
         {
             var model = new Models.PhoneNumberViewModel 
@@ -43,20 +42,44 @@ namespace WebApplication1.Controllers
         public ViewResult ViewVariations(string phoneNumber, int pageSize=20)
         {
 
+            var digitCount = phoneNumber.Count(x => x >= '0' && x <= '9');
+            
+            if(digitCount !=7 && digitCount !=10)
+            {
+                ModelState.AddModelError("PhoneNumber", "Phone numbers must be 7 or 10 digits in length");
+            }
+
+            if(! ModelState.IsValid)
+            {
+                var modelForError = new Models.PhoneNumberViewModel
+                {
+                    PhoneNumber = phoneNumber,
+                    PageSize = pageSize,
+                    NumVariations=0,
+                    PageNumber = 1,
+                    PhoneNumbers = new List<Models.PhoneNumberVariation>()
+                };
+
+                return View("Index", modelForError);
+            }
+ 
             var nums = GetVariations(phoneNumber, 1, pageSize);
 
-            var numVariations = PhoneNumberGenerator.NumVariations(phoneNumber); 
+            var numVariations = PhoneNumberGenerator.NumVariations(phoneNumber);
 
             var model = new Models.PhoneNumberViewModel
             {
                 PhoneNumber = phoneNumber,
                 PageSize = pageSize,
                 NumVariations = numVariations,
-                PageNumber = 1,          
+                PageNumber = 1,
                 PhoneNumbers = nums
             };
 
-            return View("Index",model);
+            return View("Index", model);
+ 
+
+
         }
 
 
